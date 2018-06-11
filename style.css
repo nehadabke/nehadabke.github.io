@@ -1,0 +1,13 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: #f2f0eb url(whitepaint.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-indent: -9999px;
+	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
+}
