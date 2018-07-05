@@ -4,7 +4,7 @@
 <title>Neha Dabke</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Assistant:800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Assistant:400,800" rel="stylesheet">
 <style>
 * {
     box-sizing: border-box;
@@ -29,21 +29,69 @@ body {
 /* Increase the font size of the h1 element */
 .header h1 {
     font-size: 100px;
+    line-height: 10px;
+
 }
 .header p {
-	font-size: 100px;
+	font-size: 30px;
+    line-height: 10px;
+
 }
-.header p {
-font-size: 40px;
+.header h2 {
+    font-size: 80px;
+    line-height: 0px;
+
+}
+.header a {
+	font-size: 30px;
+    line-height: 0px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.image {
+	padding-top: 100px;
+	padding-right: 60px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 </style>
 </head>
 <body>
+<div class="row">
+  <div class="column left" style="background-color:#ffff;">
+	<div class="header">
+  		<h1>hi, I'm Neha.</h1>
+  		<p>it's nice to meet you</p>
+  		<h2>–</h2>
+  		<a href="#">about</a>
+  		<a>&nbsp;</a>
+        <a href="#">projects</a>
+   	    <a>&nbsp;</a>
+  		<a href="#" class="right">resumé</a>
+  </div>
+  </div>
+  <div class="column right" style="background-color:#ffff;">
+	  <div class="image">
+  		<img src="tapedpic.jpg" height="500" width="500">
+        </div>
 
-<div class="header">
-  <h1>hi, I'm Neha.</h1>
-  <p>–</p>
-  <p1>it's nice to meet you.</p1>
+</div>
+ </div>
 </div>
 
 </body>
