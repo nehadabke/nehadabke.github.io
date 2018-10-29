@@ -30,44 +30,56 @@ body {
 
 /* Increase the font size of the h1 element */
 .header h1 {
-  font-size: 6.5vw;
+  font-size: 4vw;
   line-height: 10px;
 
 }
 .header p {
   font-size: 1.8vw;
     line-height: 25px;
-		color: black;
+    color: black;
 
 }
 .header h2 {
-  font-size: 7vw;
+  font-size: 4vw;
   line-height: 0px;
 
 }
-.header a {
+.header h7 {
+  color: black;
   font-size: 2vw;
-    line-height: 0px;
-		color: black;
 
 }
+.header h3 {
+  font-size: .3vw;
+  line-height: 0px;
+
+}
+
+.header menu {
+  font-size: 2vw;
+  line-height: 0px;
+	color: black;
+
+}
+
+.header a {
+  color: black;
+}
+
 .column {
     float: left;
     padding: 10px;
 }
 
 .left {
-  width: 60%;
-}
-
-.right {
   width: 40%;
 }
 
-.image {
-	padding-top: 100px;
-	padding-right: 60px;
+.right {
+  width: 60%;
 }
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -80,26 +92,27 @@ body {
 <div class="row">
   <div class="column left" style="background-color:#ffff;">
 	<div class="header">
-  		<h1>hi I'm Neha,</h1>
-      <p>I'm a junior Computer Science and Cognitive Science double major at UC Berkeley. I’m fascinated by the idea that human cognition and language can be predicted, analyzed, and maybe even understood by computers.
-<br /><br />Here at Cal, I’ve explored cognition, language, and its analysis through my work as a lab assistant for the cognitive science course, “Data Science and the Mind”, academic intern for the computer science course, "CS61B: Databases", and research assistant in our Computational Cognitive Science Lab.
-<br /><br />Currently, I'm working as a software engineering intern at SF based start up, CyberCube Analytics. Here, I get to work with the engineering and analytics teams to create and test tools for cyber risk management.
-<br /><br />If, on the off chance, I'm not studying, on the train, or at work, you'll find me making Spotify playlists, reading Wikipedia articles, or playing board games with anyone I can round up.</p>
-<p>it's nice to meet you.</p>
+  		<h1>hi I'm <a href="index.html">Neha</a>,</h1>
+      <p>These are some of the things I've been working on.</p>
 
       <h2>–</h2>
-  		<a href="about.html">about</a>
-  		<a>&nbsp;</a>
-        <a href="#">projects</a>
-   	    <a>&nbsp;</a>
-  		<a href="ND Resume.pdf" class="right">resumé</a>
+      <h7><a href="about.html">about</a><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="projects.html">projects</a><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a href="ND Resume.pdf" class="right">resumé</a>
+   	    <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h7>
   </div>
   </div>
   <div class="column right" style="background-color:#ffff;">
-	  <div class="image">
-  		<img src="tapedpic.jpg" height="500" width="500">
-        </div>
+    <div class="header">
+    		<h1><a href="index.html">Kinetic Math</a></h1>
+        <p>Project in conjunction with the UC Berkeley Graduate School of Education to design math education hardware and software.</p>
 
+        <h1><a href="index.html">BAMPFA Web App</a></h1>
+        <p>Web Application to enhance and contextualize the Berkeley Art Museum's 7000+ visitors.</p>
+
+        <h1><a href="index.html">Qirkat</a></h1>
+        <p>Command line checkers-like game with automated opponent.</p>
+
+    </div>
 </div>
  </div>
 </div>
