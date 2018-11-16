@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128072351-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128072351-1');
+</script>
 <title>Neha Dabke</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,36 +39,25 @@ body {
 
 /* Increase the font size of the h1 element */
 .header h1 {
-  font-size: 3.5vw;
-  line-height: 10px;
+  font-size: 4vw;
+  line-height: 50px;
+  padding: 100;
 
 }
 .header p {
   font-size: 1.8vw;
-    line-height: 25px;
-    color: black;
+    line-height: 20px;
+		color: black;
 
 }
 .header h2 {
-  font-size: 4vw;
+  font-size: 7vw;
   line-height: 0px;
 
 }
 .header h7 {
-  color: black;
-  font-size: 2vw;
-
-}
-.header h3 {
-  font-size: .3vw;
-  line-height: 0px;
-
-}
-
-.header menu {
   font-size: 2vw;
   line-height: 0px;
-	color: black;
 
 }
 
@@ -73,13 +71,18 @@ body {
 }
 
 .left {
-  width: 40%;
-}
-
-.right {
   width: 60%;
 }
 
+.right {
+  width: 40%;
+}
+
+.img {
+	padding-top: 60px;
+	padding-right: 60px;
+  width: 50%;
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -90,10 +93,18 @@ body {
 </head>
 <body>
 <div class="row">
-  <div class="column left" style="background-color:#ffff;">
 	<div class="header">
-  		<h1>hi I'm <a href="index.html">Neha</a>,</h1>
-      <p>These are some of the things I've been working on.</p>
+    <h1 href="index.html">You-Choose, a CalHacks project</h1>
+      <p>This fall, my friend Nishali and I created a web application, "you-choose" at CalHacks 5.0 <br></br>
+      We were inspired by a conversation our friends and I always seem to be having: <br></br>
+      "Where do you want to eat?" <br></br>
+      "I'm fine with anything, you choose."
+    <br></br>"No you choose."<br></br>
+  ...and repeat.<br></br>
+    We thought: how might we break this loop by making something that made an informed decision for us?<br></br>
+  From there, we spent the next 48 hours trying to create the answer.</p>
+  <img src="http://nishalinaik.weebly.com/uploads/2/0/4/6/20467860/calhacks-anim_1_orig.gif" class="img">
+
 
       <h2>–</h2>
       <h7><a href="about.html">about</a><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
@@ -101,21 +112,6 @@ body {
    	    <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h7>
   </div>
   </div>
-  <div class="column right" style="background-color:#ffff;">
-    <div class="header">
-        <h1><a href="you-choose.html">You-Choose | CalHacks 5.0</a></h1>
-        <p>Web application to answer the perennial question: "Where do you want to eat?"</p>
-    		<h1><a href="index.html">Kinetic Math</a></h1>
-        <p>Project in conjunction with the UC Berkeley Graduate School of Education to design math education hardware and software.</p>
-
-        <h1><a href="index.html">BAMPFA Web App</a></h1>
-        <p>Web Application to enhance and contextualize the Berkeley Art Museum's 7000+ visitors.</p>
-
-        <h1><a href="index.html">Qirkat</a></h1>
-        <p>Command line checkers-like game with automated opponent.</p>
-
-    </div>
-</div>
  </div>
 </div>
 
