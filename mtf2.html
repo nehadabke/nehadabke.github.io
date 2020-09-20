@@ -48,7 +48,7 @@
                 <!-- <img src="assets/images/nehasitting.png" class="sitter"> -->
                 <p>5 questions per phase, 3 phases.</p>
                 <div>
-                    <input name="randomSong" id="randomSong">
+                    <p id="randomSong"></p>
                     <button onclick="randomSong()">New Question</button>
                 </div>
                   
@@ -94,7 +94,7 @@
                     
                     function randomSong() {
                     var randomSong = song[Math.floor(Math.random() * song.length)];
-                    document.getElementById('randomSong').value = randomSong;
+                    document.getElementById("randomSong").innerHTML = randomSong;
                     }
                   </script>
                 </div>
