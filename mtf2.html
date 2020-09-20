@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Neha Dabke</title>
+  <meta name="description" content="Hi! I'm Neha."/>
+  <link rel="icon" href="assets/images/n.ico" type="image/x-icon" />
+
+
+  <!-- Bootstrap Styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+</head>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="d-flex flex-grow-1">
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item" style="font-style: italic;">
+                        <a class="nav-link" href="mtf1.html">phase 1</a>
+                    </li>
+                    <li class="nav-item" style="font-style: italic;">
+                        <a class="nav-link" style="font-weight: 100;  color: #202020;" href="mtf2.html">phase 2</a>
+                    </li>
+                    <li class="nav-item" style="font-style: italic;">
+                        <a class="nav-link" href="mtf3.html">phase 3</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- <div style="background-image: url('assets/images/Asset 1.png'); background-position-y: center; background-repeat: repeat-x;"> -->
+    <!-- Landing Section -->
+    <div class="intro-header">
+        <div class="container-sm">
+                <h1><strong>MORE THAN FRIENDS P2</strong></h1>
+                <!-- <img src="assets/images/nehasitting.png" class="sitter"> -->
+                <p>5 questions per phase, 3 phases.</p>
+                <div>
+                    <input name="randomSong" id="randomSong">
+                    <button onclick="randomSong()">New Question</button>
+                </div>
+                  
+                  <script>
+                  var song = Array(
+                    "What's been your happiest memory this past year?",
+"Have you changed your mind about anything recently? What has been your earliest recollection of happiness? What lesson took you the longest to un-learn?",
+"Are you lying to yourself about anything?",
+"What questions are you trying to answer most in your life right now? When was the last time you surprised yourself?",
+"What title would you give this chapter in your life?",
+"What do you crave more of?",
+"Finish the sentence: Strangers would describe me as ______ only I know that I am _______",
+"What's the worst pain you have ever been in that wasn't physical? Has a stranger ever changed your life?",
+"What's your first loves name and the reason you fell in love with them? What would your younger self not believe about your life today?",
+"How would you describe the feeling of being in love with one word? What are you more afraid of: failure or success and why?",
+"What is a dream you let go of?",
+"If you could get to know someone in your life on a deeper level who would it be and why? What's your mom's name and what is the most beautiful thing about her?",
+"What part of your life works what part of your life hurts?",
+"How can you become a better person?",
+"Do you think the image you have of yourself matches the image other people see you as?",
+"Are you missing anyone right now? Do you think they miss you to?",
+"What fast food restaurant do you think I'm most likely to drive through? What's my order?",
+"Do you think I intimidate others? Why or why not?",
+"When you are asked how are you, how often do you answer truthfully?",
+"How are you, really?",
+"What's the most unexplainable thing that happened to you? What's your father's name? And tell me one thing about him.",
+"If you could have it your way: who would you be with? Where would you be? What would you be doing?",
+"Describe your perfect day!",
+"What dating advice would you give your younger self?",
+"How old do you feel emotionally?",
+"Will I find your Ex on your Insta feed? Why or why not?",
+"What's the most embarrassing thing that happened to you on a date?",
+"What could you have done better in previous relationships?",
+"Is there an image of yourself you try to project on a first date you wish you could let go of?",
+"Finish the sentence: Dating is ____________ (both players) What did the people who raised you teach you about love? Describe your perfect date.",
+"What has being single taught you about yourself?",
+"What's your least favorite question to be asked on a date? What do you wish you would be asked more?",
+"What are you passionate about?",
+"What are you not currently giving enough time to?",
+"What about my profile made you swipe right?",
+"WILDCARD: Write down the three most important things to you in a relationship (30 sec) Compare.",
+"WILDCARD: Write down a dating pet peeve (30 sec). Compare. WILDCARD: Draw your current mood. Compare.",)
+                    
+                    function randomSong() {
+                    var randomSong = song[Math.floor(Math.random() * song.length)];
+                    document.getElementById('randomSong').value = randomSong;
+                    }
+                  </script>
+                </div>
+
+    </div>
+    <!-- <div class="projects">
+      <div class="row">
+        <div class="col-6 col-md-4"><span class="align-text-bottom"><img src="assets/images/Rectangle 10.png"></span></div>
+        <div class="col-6 col-md-4">
+            <span class="align-text-bottom">
+                <img src="assets/images/Rectangle 10.png" class="sittee">
+                <img src="assets/images/nehasitting.png" class="sitter">
+            </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4"><img src="assets/images/Rectangle 10.png"></div>
+        <div class="col-6 col-md-4"><img src="assets/images/Rectangle 10.png"></div>
+      </div>
+    </div>
+    <div class="footer">
+        <p>made with ❤ by me</p>
+    </div> -->
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Animation Libraries -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- Custom Scripts -->
+    <script src="assets/js/script.js"></script>
+
+</html>
