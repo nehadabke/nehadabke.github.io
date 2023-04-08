@@ -73,6 +73,8 @@ person's share = ((subtotal of person's items) / subtotal) * total -->
                        indivPortion = Math.round((indivPortion + Number.EPSILON) * 100) / 100
                        if (name) {
                             allStrings = allStrings + name + "'s portion is $" + indivPortion + "<br>";
+                            document.getElementById("name").value = null;
+                            document.getElementById("indivSubtotal").value = NaN;
                        }
                        span = document.getElementById("indivPortion");
                        span.innerHTML = allStrings;
